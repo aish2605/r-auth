@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 0 8px grey;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#inp{
+    height:30px;
+    width:200px;
+    outline:none;
+    background-color: white;
+    padding: 10px;
+ 
+}
+#signup_btn{
+    height:30px;
+    width:100px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+}
